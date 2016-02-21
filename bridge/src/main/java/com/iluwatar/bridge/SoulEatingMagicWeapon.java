@@ -32,7 +32,10 @@ public class SoulEatingMagicWeapon extends MagicWeapon {
   public SoulEatingMagicWeapon(SoulEatingMagicWeaponImpl imp) {
     super(imp);
   }
-
+  
+  /**
+   * Casts down the MagicWeaponImpl to the specific implementation  
+   */
   @Override
   public SoulEatingMagicWeaponImpl getImp() {
     return (SoulEatingMagicWeaponImpl) imp;

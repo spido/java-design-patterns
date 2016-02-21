@@ -33,6 +33,9 @@ public class FlyingMagicWeapon extends MagicWeapon {
     super(imp);
   }
 
+  /**
+   * Casts down the MagicWeaponImpl to the specific implementation  
+   */ 
   public FlyingMagicWeaponImpl getImp() {
     return (FlyingMagicWeaponImpl) imp;
   }

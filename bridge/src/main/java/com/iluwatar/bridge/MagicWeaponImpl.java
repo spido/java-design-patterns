@@ -26,6 +26,8 @@ package com.iluwatar.bridge;
  * 
  * MagicWeaponImpl
  * 
+ * The actual COMMON implementation that is wield, swing, unwield
+ * 
  */
 public abstract class MagicWeaponImpl {
 

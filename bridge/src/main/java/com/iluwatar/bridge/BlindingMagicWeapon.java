@@ -33,6 +33,9 @@ public class BlindingMagicWeapon extends MagicWeapon {
     super(imp);
   }
 
+  /**
+   * Casts down the MagicWeaponImpl to the specific implementation  
+   */
   @Override
   public BlindingMagicWeaponImpl getImp() {
     return (BlindingMagicWeaponImpl) imp;

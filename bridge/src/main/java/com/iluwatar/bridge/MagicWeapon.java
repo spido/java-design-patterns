@@ -26,11 +26,17 @@ package com.iluwatar.bridge;
  * 
  * MagicWeapon
  * 
+ * Abstract class that holds the actual COMMON implementation
+ * 
  */
 public abstract class MagicWeapon {
 
   protected MagicWeaponImpl imp;
 
+  /**
+   * Injecting the implementation via the constructor
+   * @param the implementation of the methods
+   */
   public MagicWeapon(MagicWeaponImpl imp) {
     this.imp = imp;
   }

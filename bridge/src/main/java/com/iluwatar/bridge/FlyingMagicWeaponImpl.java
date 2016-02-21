@@ -25,6 +25,8 @@ package com.iluwatar.bridge;
 /**
  * 
  * FlyingMagicWeaponImpl
+ * 
+ * Extends the COMMON with specific func
  *
  */
 public abstract class FlyingMagicWeaponImpl extends MagicWeaponImpl {
